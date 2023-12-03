@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-image: url(./assets/Background.jpg);
+    z-index: -1;
+    background-size: cover;
+}
+
+.sorteio-logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 123px;
+}
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 126px
+}
+
+.input-sorteio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    margin-top: 9px;
+}
+
+.input-entre {
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    width: 233px;
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.7;
+    background: white;
+    padding-left: 10px;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.input-e {
+    margin-left: 21px;
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    width: 233px;
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.7;
+    background: white;
+    padding-left: 10px;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.616);
+}
+
+
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 79px;
+    width: 342px;
+    height: 72px;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 4px 2px 30px 21px rgba(174, 195, 70, 0.35);
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
